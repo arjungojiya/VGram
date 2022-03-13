@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: VGColors.black,
+    backgroundColor: VGColors.white,
   },
   iSplashLogo: {
     height: VGStyleConfig.smartScale(120),

@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, StatusBar, StyleSheet} from 'react-native';
 import styleconfig from '../VGUtils/VGStyleConfig';
-// import DGLoader from '../Component/DGCustom/DGReduxComponent/DGLoader';
-import DgColors from '../VGUtils/VGColors';
+// import VGLoader from '../Component/VGCustom/VGReduxComponent/VGLoader';
+import VGColors from '../VGUtils/VGColors';
 import {Padding, Sizes} from '../VGUtils/VGDimensions';
 
 class MainContainer extends React.PureComponent {
@@ -12,10 +12,10 @@ class MainContainer extends React.PureComponent {
         <StatusBar
           barStyle="light-content"
           hidden={false}
-          backgroundColor={DgColors.black}
+          backgroundColor={VGColors.black}
           translucent={false}
         />
-        {/* <DGLoader /> */}
+        {/* <VGLoader /> */}
       </View>
     );
   }

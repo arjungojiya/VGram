@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   vContainer: {
     flex: 1,
     justifyContent: 'center',
-    backgroundColor: VGColors.black,
+    backgroundColor: VGColors.white,
   },
   vLogoContainer: {
     alignItems: 'center',

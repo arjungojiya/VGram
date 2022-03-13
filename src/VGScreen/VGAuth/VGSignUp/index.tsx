@@ -3,15 +3,13 @@ import {View, Text, TouchableOpacity, Keyboard, Image} from 'react-native';
 
 import {StackNavigationProp} from '@react-navigation/stack';
 import {RootStackParamList} from '../../../VGRouter';
-import styles from './styles';
-import CS from '../../../VGUtils/VGStyle';
+
 import VGTextInput from '../../../VGComponent/VGCustom/VGTextInput';
-// import authService from '../../../VGFirebaseService/auth';
 import {ROUTES} from '../../../VGRouter/routes';
 
 //redux
 import {useDispatch} from 'react-redux';
-import {updateLoader} from '../../../VGRedux/DGActions/commonactions';
+import {updateLoader} from '../../../VGRedux/VGActions/commonactions';
 import VGStyleConfig from '../../../VGUtils/VGStyleConfig';
 import VGInputConfig from '../../../VGUtils/VGInputConfig';
 

@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     marginVertical: Margin.small,
     paddingVertical: Padding.default,
     borderRadius: Sizes.cornerRadius.default,
-    backgroundColor: FSColors.secondary,
+    backgroundColor: FSColors.blue,
   },
   tButton: {
     fontSize: Sizes.text.subtitle,

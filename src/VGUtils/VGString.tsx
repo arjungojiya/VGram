@@ -1,7 +1,7 @@
 import AppImages from '../VGAssets/VGImages';
 import {ROUTES} from '../VGRouter/routes';
 
-const DGString = {
+const VGString = {
   space: ' ',
   noSpace: '',
   createAnAccount: 'Create an account',
@@ -14,6 +14,9 @@ const DGString = {
   mobileNumber: 'mobile numer',
   password: 'Password',
   emailPhoneUserName: 'Phone number, email or username',
+  noUser: 'no user found',
+  loginSuccess: 'login Succesfully',
+  wrongPass: 'wrong password',
 };
 
-export default DGString;
+export default VGString;

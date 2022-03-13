@@ -27,26 +27,6 @@ export type RootStackParamList = {
 const Stack = createStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<RootStackParamList>();
 
-// const MainTabNavigator: React.FC<RoutesProps> = ({navigation}) => {
-//   return (
-//     <Tab.Navigator
-//       tabBar={(props: any) => {
-//         return <DGMainTabBar {...props} navigation={navigation} />;
-//       }}
-//       screenOptions={{headerShown: false}}>
-//       <Tab.Screen name={ROUTES.Home} component={HomeStackNavigator} />
-//       <Tab.Screen name={ROUTES.Search} component={DGSearchNavigator} />
-//       <Tab.Screen name={ROUTES.Add} component={DGAddPostNavigator} />
-//       <Tab.Screen
-//         name={ROUTES.Activity}
-//         component={DGActivity}
-//         options={{tabBarBadge: 3}}
-//       />
-//       <Tab.Screen name={ROUTES.Profile} component={DGProfileNavigator} />
-//     </Tab.Navigator>
-//   );
-// };
-
 const AppContainer: React.FC<RoutesProps> = ({}) => {
   return (
     <NavigationContainer>

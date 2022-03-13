@@ -1,5 +1,5 @@
-import { SHOW_LOADER } from '../types';
-import { commonType } from '../DGActions/commonactions';
+import {SHOW_LOADER} from '../types';
+import {commonType} from '../VGActions/commonactions';
 
 interface CommonState {
   isLoading: boolean;
@@ -17,7 +17,7 @@ const commonReducer = (
 ) => {
   switch (action.type) {
     case SHOW_LOADER:
-      return { ...state, isLoading: action.payload, message: null };
+      return {...state, isLoading: action.payload, message: null};
 
     default:
       return state;

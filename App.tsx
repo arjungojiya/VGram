@@ -1,10 +1,10 @@
 import React from 'react';
 import {Provider} from 'react-redux';
-import {store} from './src/VGRedux/DGStore';
+import {store} from './src/VGRedux/VGStore';
 import {View, StyleSheet} from 'react-native';
 import AppNavigator from './src/VGRouter';
 import MainContainer from './src/VGContainers';
-import DGColors from './src/VGUtils/VGColors';
+import VGColors from './src/VGUtils/VGColors';
 
 const App = (props: any) => {
   return (
@@ -22,7 +22,7 @@ const App = (props: any) => {
 const styles = StyleSheet.create({
   vContainer: {
     flex: 1,
-    backgroundColor: DGColors.black,
+    backgroundColor: VGColors.white,
   },
 });
 export default App;
