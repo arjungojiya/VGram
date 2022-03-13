@@ -2,7 +2,7 @@ const VGColors = {
   white: '#ffffff',
   black: '#000000',
   red: '#e5322d',
-  blue: '##0095f6',
+  blue: '#1FA1FF',
   secondary: '#00dc9a',
   primary: '#ebebeb',
   placeholder: 'rgba(255,255,255,0.4)',
